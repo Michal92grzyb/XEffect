@@ -10,5 +10,6 @@ namespace XEffect.API.Data
         }
 
         public DbSet<InitModel> InitModels { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }
